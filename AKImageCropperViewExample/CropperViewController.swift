@@ -111,7 +111,7 @@ final class CropperViewController: UIViewController {
     
     @IBAction func rotateAction(_ sender: AnyObject) {
 
-        angle += M_PI_2
+        angle += .pi / 2
         
         cropView.rotate(angle, withDuration: 0.3, completion: { _ in
             
